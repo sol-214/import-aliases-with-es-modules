@@ -4,7 +4,7 @@ Poor documentation (at the time of writing this), however, makes it difficult to
 
 We can use Loader hooks to write [our own resolver](resolve.js) that will accommodate any sort of custom alias.
 
-💡`npm install`
+👉`npm install`
 
 Then:
 
