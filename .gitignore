@@ -1,0 +1,7 @@
+# Dependencies
+node_modules
+
+# Sensitive
+config/*.env
+!config/default.env
+!config/development.env

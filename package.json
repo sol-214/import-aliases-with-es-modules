@@ -1,0 +1,16 @@
+{
+  "name": "import-aliases-with-es-modules",
+  "main": "./index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development node --experimental-specifier-resolution=node --loader=./resolve.js ./index.js",
+    "with-env": "NODE_ENV=development node -r dotenv/config --experimental-specifier-resolution=node --loader=./resolve.js ./index.js dotenv_config_path=./config/${NODE_ENV}.env"
+  },
+  "engines": {
+    "node": ">=13.6.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
