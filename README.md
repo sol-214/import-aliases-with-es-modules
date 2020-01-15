@@ -1,6 +1,6 @@
 [EcmaScript Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules) are supported in Node.js 13.6. This allows using `import` and `export` keywords natively.
 
-Poor documentation (at the time of writing this), however, makes it difficult to use import aliases.
+Poor documentation (at the time of writing this), however, makes it difficult to organize project imports.
 
 We can use Loader hooks to write [our own resolver](resolve.js) that will accommodate any sort of custom alias.
 
